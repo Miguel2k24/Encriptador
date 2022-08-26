@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en - es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<!--En este (header) declaramos id para estelirisar y agregamos el logo a entro de una etiqueta (a) de vinculos para
+direccionar a la pagina oficial de Aluracursos.com-->
+    <header id="cabesera">
+        <nav>
+            <a href="https://www.aluracursos.com/"><img src="/logo-alura.png" alt="logo-alura" class="alura-logo"></a>
+        </nav>
+    </header>
+<!--Aqui fuera del header y main agregamos un titulo-->
+    <h1 class="h1titulo">Encriptador de mensajes Alura</h1>
+    <main>
+        
+        <section class="seccion1">
+            <h2> <em class="negrita">ENCRIPTAR Y DESENCRIPTAR!!</em></h2>
+            
+            <textarea class="texto1" cols="90" rows="30" placeholder="Ingresar el texto aqui" ></textarea>
+
+            <div class="div-botones">
+                <button class="button1" onclick="btnEncriptar()">Encriptar!</button>
+
+                <button class="button2" onclick="btnDesencriptar()">Desencriptar!</button>
+                
+            </div>
+        </section>
+        
+        <section class="seccion2">
+            <h2><em>MENSAJE ENCRITADO!!</em></h2>
+           
+            <textarea class="mensaje" cols="50" rows="30" placeholder="Ningun mensaje encontrado"></textarea>
+
+            <div id="div-copiar">
+                <button id="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        
+        <h4 class="h4crador">Creador del este Encriptador Alura</h4>
+        <a href="https://www.linkedin.com/in/jos%C3%A9-miguel-franco-bonilla-54b38b248/"><img id="linkedin" src="/linkedin-removebg-preview.png" alt=""></a>
+        <a href="https://github.com/Miguel2k24"><img id="github" src="/GITHUB-LOGO.png" alt=""></a>
+        <p id="copyright">&copy; Copyright Alura y Miguel Bonilla </p>
+        
+    </footer>
+
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
