@@ -14,6 +14,7 @@ header{
     border-radius: 10px;
     border: 2px solid black;
     margin: 10px;
+    transition: 2s;
 
 }
 
@@ -84,6 +85,7 @@ textarea{
     color: rgb(18, 114, 34);
     border: 2px solid black;
     border-radius: 90px;
+    cursor: pointer;
 }
 
 .button1:hover{
@@ -101,7 +103,7 @@ textarea{
     font-size: 20px;
     color: rgb(18, 114, 34);
     border: 2px solid black;
-    border-radius: 90px;
+    border-radius: 90px;cursor: pointer;
 }
 
 .button2:hover{
@@ -130,6 +132,7 @@ textarea{
     color: rgb(18, 114, 34);
     border: 2px solid black;
     border-radius: 90px;
+    cursor: pointer;
 }
 
 #copiar:hover{
