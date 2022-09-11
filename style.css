@@ -294,6 +294,11 @@ footer{
         cursor: pointer;
         transition: all 600ms ease;
     }
+    
+    .button1:hover{
+        font-size: 15px;
+        border: 2px solid rgb(18, 114, 34);
+    }
 
     .button2{
         padding: 10px;
@@ -304,6 +309,13 @@ footer{
         border-radius: 90px;cursor: pointer;
         transition: all 600ms ease;
     }
+
+    .button2:hover{
+        font-size: 15px;
+        border: 2px solid rgb(18, 114, 34);
+        transition: all 600ms ease;
+    }
+
 
     
 
@@ -338,6 +350,12 @@ footer{
         transition: all 600ms ease;
     }
 
+    #copiar:hover{
+        font-size: 15px;
+        border: 2px solid rgb(18, 114, 34);
+        transition: all 600ms ease;
+    }
+
     .soloMiniscula2{
         margin-top: 10px;
         text-align: center;
@@ -356,10 +374,22 @@ footer{
         
     }
 
+    #linkedin:hover{
+        width: 50px;
+        right: none;
+    }
+
     #github{
         width: 150px;
         position: absolute;
         right: 48%;
+        transition: all 600ms ease;
+    }
+
+    #github:hover{
+        width: 100px;
+        color: aliceblue;
+        right: none;
         transition: all 600ms ease;
     }
 
